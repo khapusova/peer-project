@@ -1,0 +1,631 @@
+{
+  "auth": [
+    {
+      "id": "login",
+      "data": [
+        {
+          "token": "user1",
+          "email": "micah.donnelly@example.org",
+          "password": "123abc"
+        },
+        {
+          "token": "user2",
+          "email": "micah.donnelly2@example.org",
+          "password": "123abc2"
+        }
+      ]
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "userName": "Pol",
+      "userSurname": "Nadal",
+      "country": "United Kingdom",
+      "institution": "University of Liverpool",
+      "followers": 5,
+      "following": [
+        {
+          "type_of_following": "journal",
+          "id": 1
+        }
+      ],
+      "areasOfInterest": "Microbiology, bacterial symbionts, quorum sensing",
+      "position": "Postdoctoral Research Fellow",
+      "bio": "Prior to joining LetPub, my masters and doctoral research focused on reconstructing mountain glacier change using multiple proxi....."
+    },
+    {
+      "id": 2,
+      "userName": "Pol2",
+      "userSurname": "Nadal2",
+      "country": "United Kingdom2",
+      "institution": "University of Liverpool2",
+      "followers": 5,
+      "following": [
+        {
+          "type_of_following": "journal",
+          "id": 1
+        },
+        {
+          "type_of_following": "user",
+          "id": 200
+        }
+      ],
+      "areasOfInterest": "Microbiology, bacterial symbionts, quorum sensing",
+      "position": "Postdoctoral Research Fellow",
+      "bio": "Prior to joining LetPub, my masters and doctoral research focused on reconstructing mountain glacier change using multiple proxi.....",
+      "passedOnboarding": true
+    }
+  ],
+  "trending": [
+    {
+      "id": "feed",
+      "feed": [
+        {
+          "userID": 1,
+          "userFeed": [
+            {
+              "id": 1,
+              "userName": "Avriel",
+              "userSurname": "Licciardi",
+              "interactionObject": "LetPub Webinar Series Open Discussion",
+              "flag": "comment_hub",
+              "commentContent": "Let's get the discussion going: What part of international publishing do you find the most difficult?",
+              "dateOfPublication": "2 weeks ago"
+            },
+            {
+              "id": 2,
+              "userName": "Clark",
+              "userSurname": "Holdsworth",
+              "interactionObject": "LetPub Webinar Series Open Discussion",
+              "flag": "live_board",
+              "dateOfPublication": "2 weeks ago"
+            },
+            {
+              "id": 3,
+              "userName": "Avriel",
+              "userSurname": "Licciardi",
+              "interactionObject": "Kathryn Muehlberger",
+              "flag": "follow",
+              "dateOfPublication": "4 weeks ago"
+            },
+            {
+              "id": 4,
+              "userName": "Clark",
+              "userSurname": "Holdsworth",
+              "interactionObject": "Pol Johnson",
+              "flag": "follow",
+              "dateOfPublication": "1 month ago"
+            },
+            {
+              "id": 5,
+              "userName": "Avriel",
+              "userSurname": "Licciardi",
+              "interactionObject": "LetPub Webinar Series Open Discussion",
+              "flag": "comment_hub",
+              "commentContent": "Let's get the discussion going: What part of international publishing do you find the most difficult?",
+              "dateOfPublication": "2 weeks ago"
+            },
+            {
+              "id": 6,
+              "interactionObject": "Open Access Publishing: Obstacles and Options",
+              "flag": "create_hub",
+              "created_by": "Amy Clark",
+              "comments_count": 50,
+              "followers_count": 5,
+              "areas": [
+                "Publishing",
+                "Open Science",
+                "Open Access"
+              ],
+              "privacy": "opened"
+            },
+            {
+              "id": 7,
+              "interactionObject": "This year's Nobel Prize in Chemistry to CRISPER developers",
+              "flag": "create_hub",
+              "created_by": "Zachery Wolfe",
+              "comments_count": 1,
+              "followers_count": 2,
+              "areas": [
+                "Nobel Prize",
+                "Crisper",
+                "gene editing"
+              ],
+              "privacy": "closed"
+            },
+            {
+              "id": 8,
+              "interactionObject": "LetPub Webinar Series Open Discussion",
+              "flag": "create_hub",
+              "created_by": "Clark Holdswort",
+              "comments_count": 1,
+              "followers_count": 2,
+              "areas": [
+                "Q&A",
+                "Manuscript",
+                "Publishing",
+                "Submission"
+              ],
+              "privacy": "opened"
+            },
+            {
+              "id": 9,
+              "interactionObject": "Open Access Publishing: Obstacles and Options",
+              "flag": "create_hub",
+              "created_by": "Amy Clark",
+              "comments_count": 50,
+              "followers_count": 5,
+              "areas": [
+                "Publishing",
+                "Open Science",
+                "Open Access"
+              ],
+              "privacy": "opened"
+            },
+            {
+              "id": 10,
+              "interactionObject": {
+                "userName": "Pol",
+                "userSurname": "Nadal",
+                "institution": "University of Liverpool",
+                "isFollowed": false
+              },
+              "flag": "follow_suggestions"
+            },
+            {
+              "id": 11,
+              "interactionObject": {
+                "userName": "Kelvin",
+                "userSurname": "Chan",
+                "isFollowed": false
+              },
+              "flag": "follow_suggestions"
+            },
+            {
+              "id": 12,
+              "interactionObject": {
+                "userName": "Amber",
+                "userSurname": "Jolly",
+                "institution": "Advanced Cell Diagnostics",
+                "isFollowed": true
+              },
+              "flag": "follow_suggestions"
+            },
+            {
+              "id": 13,
+              "interactionObject": {
+                "userName": "Clark",
+                "userSurname": "Holdsworth",
+                "institution": "LetPub",
+                "isFollowed": false
+              },
+              "flag": "follow_suggestions"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "journals": [
+    {
+      "id": 1,
+      "name": "Scientific Reports",
+      "area": "Multidisciplinary sciences",
+      "year": "February 28, 2021",
+      "citescore": {
+        "actual": "Citescore: 7.2",
+        "data": {
+          "2011": 0.5,
+          "2012": 0.6,
+          "2013": 4,
+          "2014": 3,
+          "2015": 5,
+          "2016": 1,
+          "2017": 2,
+          "2018": 6,
+          "2019": 2.9,
+          "2020": 5.1,
+          "2021": 4.7,
+          "2022": 5
+        }
+      },
+      "comments": [
+        {
+          "comment_id": 1,
+          "content": "I feel the journal requires a certain quality of the paper. Because my paper was on a real novel idea, it was not easy to find a reviewer. There was only one reviewer and the comments were mostly about details or asking for...",
+          "dateOfPublication": "1 year ago",
+          "likedBy": [
+            {
+              "name": "Anonymous User",
+              "id": 200
+            },
+            {
+              "name": "Pol Nadal",
+              "id": 1
+            },
+            {
+              "name": "Pol Nadal",
+              "id": 1
+            },
+            {
+              "name": "Pol Nadal",
+              "id": 1
+            }
+          ],
+          "replies": [
+            {
+              "comment_id": 2,
+              "to": {
+                "comment_id": 1
+              },
+              "content": "Unbelievable!",
+              "dateOfPublication": "30 weeks ago",
+              "author": {
+                "name": "Kate Smith"
+              },
+              "likedBy": [
+                {
+                  "name": "Anonymous User",
+                  "id": 200
+                }
+              ]
+            },
+            {
+              "comment_id": 3,
+              "to": {
+                "author": "Kate Smith",
+                "comment_id": 2
+              },
+              "content": "I had the same experience",
+              "dateOfPublication": "30 weeks ago",
+              "author": {
+                "name": "Angela White"
+              },
+              "likedBy": [
+                {
+                  "name": "Pol Nadal",
+                  "id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comment_id": 4,
+          "content": "I feel the journal requires a certain quality of the paper. Because my paper was on a real novel idea, it was not easy to find a reviewer. There was only one reviewer and the comments were mostly about details or asking for...",
+          "dateOfPublication": "1 year ago",
+          "likedBy": [
+            {
+              "name": "Anonymous User",
+              "id": 200
+            }
+          ],
+          "replies": [
+            {
+              "comment_id": 5,
+              "to": {
+                "comment_id": 4
+              },
+              "content": "Unbelievable!",
+              "dateOfPublication": "30 weeks ago",
+              "author": {
+                "name": "Kate Smith"
+              },
+              "likedBy": [
+                {
+                  "name": "Anonymous User",
+                  "id": 200
+                }
+              ]
+            },
+            {
+              "comment_id": 6,
+              "to": {
+                "author": "Kate Smith",
+                "comment_id": 5
+              },
+              "content": "I had the same experience",
+              "dateOfPublication": "30 weeks ago",
+              "author": {
+                "name": "Angela White"
+              },
+              "likedBy": [
+                {
+                  "name": "Pol Nadal",
+                  "id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "comment_id": 7,
+          "content": "Anonymous general comment",
+          "replies": [
+            {
+              "comment_id": 9,
+              "content": "reply to anonymous comment",
+              "to": {
+                "author": "Anonymous User",
+                "comment_id": 7
+              },
+              "dateOfPublication": "today",
+              "likedBy": [
+                {
+                  "name": "Pol Nadal",
+                  "id": 1
+                }
+              ],
+              "author": {
+                "id": 1,
+                "name": "Pol Nadal"
+              }
+            }
+          ],
+          "dateOfPublication": "today",
+          "likedBy": [],
+          "author": {
+            "id": 1,
+            "name": "Anonymous User"
+          }
+        },
+        {
+          "comment_id": 8,
+          "content": "Non-anonymous general comment2",
+          "replies": [
+            {
+              "comment_id": 10,
+              "content": "reply1",
+              "to": {
+                "author": "Pol Nadal",
+                "comment_id": 8
+              },
+              "dateOfPublication": "today",
+              "likedBy": [],
+              "author": {
+                "id": 1,
+                "name": "Anonymous User"
+              }
+            }
+          ],
+          "dateOfPublication": "today",
+          "likedBy": [],
+          "author": {
+            "id": 1,
+            "name": "Pol Nadal"
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ACS Applied Materials & Interfaces",
+      "area": "Materials science, multidisciplinary",
+      "year": "February 28, 2021",
+      "comments": [],
+      "citescore": {
+        "actual": "Citescore: 7.2",
+        "data": {}
+      }
+    },
+    {
+      "id": 3,
+      "name": "RSC Advances",
+      "area": "Chemistry, multidisciplinary.",
+      "year": "February 28, 2021",
+      "comments": [],
+      "citescore": {
+        "actual": "Citescore: 7.2",
+        "data": {}
+      }
+    },
+    {
+      "id": 4,
+      "name": "Applied suface science",
+      "area": "Chemistry, physical",
+      "year": "February 28, 2021",
+      "comments": [
+        {
+          "comment_id": null,
+          "content": "comment!",
+          "replies": [
+            {
+              "comment_id": 1,
+              "content": "comment2",
+              "to": {
+                "author": "Pol Nadal",
+                "comment_id": null
+              },
+              "dateOfPublication": "today",
+              "likedBy": [
+                {
+                  "name": "Pol Nadal",
+                  "id": 1
+                }
+              ],
+              "author": {
+                "id": 1,
+                "name": "Pol Nadal"
+              }
+            }
+          ],
+          "dateOfPublication": "today",
+          "likedBy": [
+            {
+              "name": "Pol Nadal",
+              "id": 1
+            }
+          ],
+          "author": {
+            "id": 1,
+            "name": "Pol Nadal"
+          }
+        }
+      ],
+      "citescore": {
+        "actual": "Citescore: 7.2",
+        "data": {}
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "name": "Celebrating women in science (2018)",
+      "area": "Science",
+      "year": "2021"
+    },
+    {
+      "id": 2,
+      "name": "Global human-made mass exceeds all living biomass",
+      "area": "Nature",
+      "year": "2021"
+    },
+    {
+      "id": 3,
+      "name": "Micro cold traps on the Moon (2021)",
+      "area": "Nature Astronomy",
+      "year": "2021"
+    },
+    {
+      "id": 4,
+      "name": "Molecular water detected on the sunlit Moon by SOFIA (2021)",
+      "area": "Nature Astronomy",
+      "year": "2021"
+    }
+  ],
+  "funding": [
+    {
+      "id": 1,
+      "name": "Science of Organizations",
+      "area": "Business, economics, and management",
+      "year": "February 28, 2021"
+    },
+    {
+      "id": 2,
+      "name": "Supporting Locally led development through market-based solutions in the philippines",
+      "area": "Business, economics, and management",
+      "year": "February 28, 2021"
+    },
+    {
+      "id": 3,
+      "name": "Partnerships for Enhancing Expertise in Taxonomy (PEET) Special biennial competition in systematic biology",
+      "area": "Arts and Humanities",
+      "year": "March 1, 2021"
+    },
+    {
+      "id": 4,
+      "name": "Challenges for Europe",
+      "area": "Behavioral and social sciences",
+      "year": "March 1, 2021"
+    }
+  ],
+  "researchers": [
+    {
+      "id": 1,
+      "type": "Peeref user",
+      "name": "James Smith",
+      "affiliation": "Department of Mathematics and Statistics University of New Brunswick Fredericton Canada",
+      "selected_publication": "Precision unification and proton decay in F-theory GUTs with high scale supersymmetry",
+      "journal": "Journal of High Energy Physics",
+      "topics": [
+        "GUT",
+        "F-Theory",
+        "Supersymmetric Standard Model"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Peeref user",
+      "name": "Kate Smith",
+      "affiliation": "Department of Physics University of New Brunswick Fredericton Canada",
+      "selected_publication": "Precision unification and proton decay in F-theory GUTs with high scale supersymmetry",
+      "journal": "Journal of High Energy Physics",
+      "topics": [
+        "GUT",
+        "F-Theory",
+        "Supersymmetric Standard Model"
+      ]
+    }
+  ],
+  "hubs": [
+    {
+      "id": 6,
+      "interactionObject": "Open Access Publishing: Obstacles and Options",
+      "flag": "create_hub",
+      "created_by": "Amy Clark",
+      "comments_count": 50,
+      "followers_count": 5,
+      "areas": [
+        "Publishing",
+        "Open Science",
+        "Open Access"
+      ],
+      "privacy": "opened"
+    },
+    {
+      "id": 7,
+      "interactionObject": "This year's Nobel Prize in Chemistry to CRISPER developers",
+      "flag": "create_hub",
+      "created_by": "Zachery Wolfe",
+      "comments_count": 1,
+      "followers_count": 2,
+      "areas": [
+        "Nobel Prize",
+        "Crisper",
+        "gene editing"
+      ],
+      "privacy": "closed"
+    },
+    {
+      "id": 8,
+      "interactionObject": "LetPub Webinar Series Open Discussion",
+      "flag": "create_hub",
+      "created_by": "Clark Holdswort",
+      "comments_count": 1,
+      "followers_count": 2,
+      "areas": [
+        "Q&A",
+        "Manuscript",
+        "Publishing",
+        "Submission"
+      ],
+      "privacy": "opened"
+    },
+    {
+      "id": 9,
+      "interactionObject": "Open Access Publishing: Obstacles and Options",
+      "flag": "create_hub",
+      "created_by": "Amy Clark",
+      "comments_count": 50,
+      "followers_count": 5,
+      "areas": [
+        "Publishing",
+        "Open Science",
+        "Open Access"
+      ],
+      "privacy": "opened"
+    }
+  ],
+  "history": [
+    {
+      "userID": 1,
+      "history": [
+        "fdsf",
+        "weqeqwe",
+        "science1"
+      ],
+      "id": 1
+    },
+    {
+      "userID": 2,
+      "id": 2,
+      "history": [
+        "Journal",
+        "Science",
+        "Art"
+      ]
+    }
+  ]
+}
